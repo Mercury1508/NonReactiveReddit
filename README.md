@@ -1,22 +1,22 @@
-Java Application to interact with the reddit API and do operations on the data fetched.
-Made using Spring framework build using Gradle and MongoDB database.
-Used Jackson library to map the JSON data to Java objects for storing in the database.
+<b>Java Application</b> to interact with the reddit API and do operations on the data fetched.
+Made using <b>Spring</b> framework build using <b>Gradle</b> and <b>MongoDB</b> database.
+Used <b>Jackson</b> library to map the JSON data to Java objects for storing in the database.
 
-API’s used-
+<b>API’s used-</b>
 1. https://www.reddit.com/api/v1/access_token
      <br> To get the auth token for using the Reddit API.
 2. https://oauth.reddit.com
       <br>Base URL for calling the Reddit API.
+<br>
 
-
-Endpoints used-
+<b>Endpoints used-</b>
 1. /r/subreddit/new
        <br>For fetching the posts from a subreddit.
 2. /api/submit
        <br>For posting a post on reddit.
+<br>
 
-
-Endpoints created-
+<b>Endpoints created-</b>
 1. /user/test/{subreddit_name}
       <br>For fetching the posts of a particular subreddit and storing it in the database.
 2. /user/get/{user_name}
